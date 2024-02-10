@@ -1,0 +1,294 @@
+{
+  "basics": {
+    "name": "Noé Vidal Aguilar",
+    "label": "Full Stack Developer Junior con 3 años de experiencia MongoDB, Express, Vue, NodeJs, 6 trabajando con WordPress.",
+    "image": "/me.webp",
+    "email": "vidalnoe@outlook.com",
+    "phone": "+52 9671290893",
+    "url": "entumido.com",
+    "summary": "Desarrollador junior fullstack, apasionado por la tecnología y el desarrollo, desde hace más de 6 años enfocado en el desarrollo web con tecnologías como WordPress, Shopify, y los últimos 3 en desarrollo con el stack MongoDB, Express, Vue, Node.js. He trabajado con datos y automatizaciones usando las librerias selenium y pandas en Python.",
+    "location": {
+      "address": "",
+      "postalCode": "29037",
+      "city": "Tuxtla Gutiérrez",
+      "countryCode": "MX",
+      "region": "México"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Noe Vidal Aguilar",
+        "url": "https://www.linkedin.com/in/noé-vidal-aguilar-146940185/"
+      },
+      {
+        "network": "X",
+        "username": "noe_vidal",
+        "url": "https://x.com/NOE_VIDAL"
+      },
+      {
+        "network": "GitHub",
+        "username": "Noevidal23",
+        "url": "https://github.com/Noevidal23"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Desarrollador Freelance",
+      "position": "Desarrollador Freelance",
+      "url": "https://entumido.com",
+      "startDate": "2018-01-01",
+      "endDate": null,
+      "summary": "He desarrollado varios sitios web a diferentes empresas como son Real Estate, Restaurantes, Spas, Hoteles e ecommerce, ademas de difusión de contenido a través de redes sociales, Facebook, instagram, Twitter, Youtube.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Estrategia Electoral",
+      "position": "Jefe de informática",
+      "url": "https://estrategia-electoral.com",
+      "startDate": "2021-06-01",
+      "endDate": null,
+      "summary": "Análisis y procesamiento de datos para una empresa de desarrollo politico en el estado, hemos desarrollado diversas plataformas de trabajo privadas en varios estados del pais, asi como muchos municipios.",
+      "highlights": [
+        "Analista de datos"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad del Sur",
+      "url": "https://universidadtecnologicadelsur.com/",
+      "area": "Ingeniero en sistemas computacionales",
+      "studyType": "Bachelor",
+      "startDate": "2006-01-01",
+      "endDate": "2008-10-01",
+      "score": "8.9",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2023-05-24",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/4aa75c63-6830-4bc5-ab85-5269e03bbb10"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node.JS",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Medio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Medio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Vue.js",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Vue Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Medio",
+      "keywords": [
+        "Pandas",
+        "Análisis de datos",
+        "Selenium",
+        "Automatización en procesos web"
+      ]
+    },
+    {
+      "name": "WordPress",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CMS",
+        "Wordpress"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Entumido",
+      "isActive": true,
+      "description": "Landing Page para publicitar mi trabajo como desarrollador Freelance",
+      "highlights": [
+        "Landing Page"
+      ],
+      "url": "https://entumido.com"
+    },
+    {
+      "name": "Top Cozy Homes",
+      "isActive": true,
+      "description": "Página web para una agencia de Real Estate con base en Ajijic, Jalisco. ",
+      "highlights": [
+        "Real Estate"
+        
+      ],
+      "url": "http://topcozyhomes.com/"
+    },
+    {
+      "name": "Menus Digitales",
+      "isActive": true,
+      "description": "Web con el menu digital para un establecimiento local de Mezcales en Tuxtla Gutiérrez",
+      "highlights": [
+        "Menus Digitales",
+        "Comercio Local"
+      ],
+      "url": "menus.entumido.com/popoyote"
+    },
+    {
+      "name": "Recorridos virtuales 360",
+      "isActive": true,
+      "description": "Recorridos virtuales en 360 grados para desarrollos inmobiliarios y hoteleria.",
+      "highlights": [
+        "Recorridos Virtuales",
+        "Comercio Local"
+      ],
+      "url": "rv.entumido.com/nahotel"
+    }
+  ]
+}

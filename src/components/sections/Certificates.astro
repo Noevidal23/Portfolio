@@ -1,0 +1,38 @@
+---
+import Section from "../Section.astro";
+import { certificates } from "@cv";
+const { name, date, issuer, url } = certificates[0];
+---
+
+<Section title="Certificaciones">
+    <article>
+        <header>
+            <h3>{issuer}</h3>
+            <h4>{name}</h4>
+        </header>
+        <footer>
+            <p>{date}</p>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+                {url}
+            </a>
+        </footer>
+    </article>
+</Section>
+<style>
+    article {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    article h3 {
+        color: #111;
+    }
+    article h4 {
+        color: #222;
+        font-weight: 400;
+    }
+    article a {
+        color: #555;
+        font-size: 0.9rem;
+    }
+</style>

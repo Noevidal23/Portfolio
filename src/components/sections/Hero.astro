@@ -1,0 +1,136 @@
+---
+import { basics } from "@cv";
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import X from "@/icons/X.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+
+const SOCIAL_ICONS = {
+    X,
+    LinkedIn,
+    GitHub,
+};
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1>{basics.name}</h1>
+            <h2>{basics.label}</h2>
+            <span>
+                <WorldMap />
+                {basics.location.city}, {basics.location.region}</span
+            >
+            <footer class="print">
+                <p>
+                    {basics.email} &bull; {basics.phone} &bull; {
+                        basics.profiles[0].url
+                    }
+                </p>
+            </footer>
+            <footer class="no-print">
+                <a
+                    href={`mailto:${basics.email}`}
+                    title=`Enviar un correo electronico al mail ${basics.name} al correo ${basics.email}`
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Mail />
+                </a>
+                <a
+                    href={`tel:${basics.phone}`}
+                    title=`Llamar por teléfono a ${basics.name} al número ${basics.phone}`
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Phone />
+                </a>
+                {
+                    basics.profiles.map(({ network, url, username }) => {
+                        const Icon = SOCIAL_ICONS[network];
+
+                        return (
+                            <a
+                                href={url}
+                                title={`Visite el perfil de ${basics.name} en ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        );
+                    })
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={basics.image} alt={basics.name} />
+        </figure>
+    </div>
+</Section>
+<style>
+    img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 150px;
+        border-radius: 6px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+    span {
+        color: #666;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+    footer {
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+        
+    }
+    footer p{
+        font-size: 0.7rem;
+        color: #444;
+    }
+    footer a {
+        color: #777;
+        display: inline-flex;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+    footer a:hover {
+        background-color: #eee;
+        border: 1px solid #ddd;
+    }
+</style>
