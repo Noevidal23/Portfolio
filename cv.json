@@ -278,7 +278,7 @@
         "Menus Digitales",
         "Comercio Local"
       ],
-      "url": "menus.entumido.com/popoyote"
+      "url": "https://menus.entumido.com/popoyote"
     },
     {
       "name": "Recorridos virtuales 360",
@@ -288,7 +288,7 @@
         "Recorridos Virtuales",
         "Comercio Local"
       ],
-      "url": "rv.entumido.com/nahotel"
+      "url": "https://rv.entumido.com/nahotel"
     }
   ]
 }
